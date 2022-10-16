@@ -21,8 +21,8 @@ body {
 
 div {
   position: relative;
-  width: 550px;
-  height: 550px;
+  width: 530px;
+  height: 530px;
   background: #1F2937;
   margin: auto;
   border-radius: 5px;
@@ -181,7 +181,7 @@ hr {
   display: inline;
   vertical-align: middle;
   top: 10px;
-  left: 156px;
+  left: 146px;
 }
 
 #length-el {
