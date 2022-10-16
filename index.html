@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Document</title>
+ <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+ <div>
+  <h1 id="header1">Generate a</h1>
+  <h1 id="header2">random passowrd</h1>
+  <p>never use an insecure password again.</p>
+  <p id="psymboles">Generate Symboles
+   <input type="checkbox" id="Symboles" name="Symboles" value="Symboles">
+  </p>
+  <p id="pnumbers">Generate Numbers
+   <input type="checkbox" id="Numbers" name="Numbers" value="Numbers">
+  </p>
+  <br>
+  <label for="length" id="llength">Length:</label>
+  <input type="number" id="length-el" name="length" oninput="maxLengthCheck()" type="number" min="1"
+   max="99" value="1" />
+  <button id="generate" onclick="generatePassword()">Generate password</button>
+  <hr>
+  <div id="password">
+  <p id="password-el"></p>
+  </div>
+ </div>
+ <script src="index.js"></script>
+</body>
+
+</html>
