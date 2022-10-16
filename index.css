@@ -173,15 +173,15 @@ hr {
   position: relative;
   display: inline;
   vertical-align: middle;
-  top: 40px;
+  top: 10px;
 }
 
 #pnumbers {
   position: relative;
   display: inline;
   vertical-align: middle;
-  top: 40px;
-  left: 36px;
+  top: 10px;
+  left: 156px;
 }
 
 #length-el {
@@ -200,8 +200,8 @@ hr {
   border-radius: 6px;
   border: none;
   text-align: center;
-  top: 6px;
-  left: 415px;
+  top: 35px;
+  left: 26px;
 }
 
 #llength {
@@ -223,6 +223,6 @@ hr {
   /* Medium grey */
 
   color: #d5d4d8;
-  top: 6px;
-  left: 415px;
+  top: 35px;
+  left: 26px;
 }
