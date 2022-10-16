@@ -99,7 +99,7 @@ p {
   position: relative;
   width: 191px;
   height: 42px;
-  left: 70px;
+  left: 55px;
   top: 100px;
 
   background: #10B981;
@@ -181,7 +181,7 @@ hr {
   display: inline;
   vertical-align: middle;
   top: 10px;
-  left: 146px;
+  left: 126px;
 }
 
 #length-el {
