@@ -12,11 +12,13 @@ const numbers = document.querySelector('#Numbers')
 const symboles = document.querySelector('#Symboles')
 
 let passwordEl = document.getElementById("password-el")
+let copiedEl = document.getElementById("copied-el")
 
 let lengthEl = document.getElementById("length-el")
 
 function generatePassword() {
  passwordEl.textContent = ""
+ copiedEl.textContent = ""
  if (numbers.checked === false && symboles.checked === false) {
   for (let i = 0; i < lengthEl.valueAsNumber; i++) {
    passwordEl.textContent += characters[Math.floor(Math.random()*characters.length)]
@@ -35,3 +37,16 @@ function generatePassword() {
   }
  }
 }
+
+passwordEl.onclick = function () {
+ document.execCommand("copy");
+ copiedEl.textContent = "Password Copied Successfully"
+}
+
+passwordEl.addEventListener("copy", function (event) {
+ event.preventDefault();
+ if (event.clipboardData) {
+  event.clipboardData.setData("text/plain", passwordEl.textContent);
+  console.log(event.clipboardData.getData("text"))
+ }
+});

@@ -226,3 +226,33 @@ hr {
   top: 35px;
   left: 26px;
 }
+
+.copied {
+  position: relative;
+  width: 420px;
+  height: 10px;
+  left: 0px;
+  top: -147px;
+  background: transparent;
+}
+
+#copied-el {
+  position: relative;
+  width: 420px;
+  height: 10px;
+  left: 0px;
+  top: -27px;
+  word-break: break-all;
+  white-space: normal;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 32px;
+  /* identical to box height, or 200% */
+
+  text-align: center;
+
+  color: #55F991;
+}
