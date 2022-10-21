@@ -21,7 +21,7 @@ function generatePassword() {
  copiedEl.textContent = ""
  if (numbers.checked === false && symboles.checked === false) {
   for (let i = 0; i < lengthEl.valueAsNumber; i++) {
-   passwordEl.textContent += characters[Math.floor(Math.random()*characters.length)]
+   passwordEl.textContent += characters[Math.floor(Math.random() * characters.length)]
   }
  } else if (numbers.checked === true && symboles.checked === false) {
   for (let i = 0; i < lengthEl.valueAsNumber; i++) {
